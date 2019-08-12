@@ -15,6 +15,7 @@ class App extends Component {
     return (
       <div id='quote-box'>
         <p id='text'><i class="fas fa-quote-left"></i> {this.state.content} <i class="fas fa-quote-right"></i></p>
+        <p id='author'>-{this.state.author}</p>
       </div>
     );
   }
