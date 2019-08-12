@@ -3,12 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root{
+  --main-bg-color: #F23322;
+  --sub-bg-color: #F2ECE9;
+  --main-font-color: #A66851;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-bg-color);
+  height: 100vh;
+  color: var(--main-font-color);
 }
 
 code {
