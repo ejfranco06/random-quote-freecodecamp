@@ -8,6 +8,7 @@
   --main-bg-color: #F23322;
   --sub-bg-color: #F2ECE9;
   --main-font-color: #A66851;
+  --btn-bg-color: #F24822;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -18,6 +19,7 @@ body {
   background-color: var(--main-bg-color);
   height: 100vh;
   color: var(--main-font-color);
+  padding: .5em;
 }
 
 code {

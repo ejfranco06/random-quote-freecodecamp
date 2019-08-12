@@ -13,10 +13,13 @@ class App extends Component {
 
   render(){
     return (
-      <div id='quote-box'>
+      <main id='quote-box'>
         <p id='text'><i class="fas fa-quote-left"></i> {this.state.content} <i class="fas fa-quote-right"></i></p>
         <p id='author'>-{this.state.author}</p>
-      </div>
+        <div>
+          <button id='new-quote'>new quote</button>
+        </div>
+      </main>
     );
   }
   
